@@ -12,8 +12,6 @@ public class ArmStrongNUmberExmpl {
 			armS += Math.pow(temp, len);
 			System.out.println("Math.pow("+temp+", "+len+")"+Math.pow(temp, len));
 			System.out.println("temp  "+temp+"  arms  "+armS);
-			
-			
 		}
 	if(armS == number)
 		System.out.println("armstrong  ");

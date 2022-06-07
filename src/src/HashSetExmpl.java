@@ -25,6 +25,9 @@ public class HashSetExmpl {
 		    set.add(b1);  
 		    set.add(b2);  
 		    set.add(b3);  
+		    List<Book> list = new List<Book>();
+		    
+		    Collections.sort((List<Book>) set);
 		    //Traversing HashSet  
 		    for(Book b:set)  
 		    System.out.println(b.id+" "+b.name+" "+b.author+" "+b.publisher+" "+b.quantity);  
